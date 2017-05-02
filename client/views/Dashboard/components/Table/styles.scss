@@ -1,0 +1,32 @@
+.vDashboardTable {
+  margin: 0 30px 30px;
+
+  & .tableCaption {
+    display: flex;
+    height: 50px;
+
+    & .title {
+      position: relative;
+      display: flex;
+      align-items: center;
+      border: none;
+      background-color: initial;
+      font-size: inherit;
+      font-family: inherit;
+      outline: none;
+    }
+  }
+
+  & .tableHeaderColumn {
+    white-space: pre-line !important;
+  }
+
+  & .firstColumn {
+    padding-left: 0 !important;
+  }
+
+  & .tableHeaderFix {
+    width: 17px;
+    padding: 0 !important;
+  }
+}
