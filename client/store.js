@@ -1,5 +1,5 @@
 import { createStore, applyMiddleware } from 'redux';
-import { persistStore, autoRehydrate, processSpecial } from 'redux-persist-immutable';
+import { persistStore, autoRehydrate } from 'redux-persist-immutable';
 import { fromJS } from 'immutable';
 import { routerMiddleware } from 'react-router-redux';
 import createSagaMiddleware from 'redux-saga';

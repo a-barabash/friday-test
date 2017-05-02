@@ -1,6 +1,5 @@
 import { takeLatest } from 'redux-saga';
 import { call, put } from 'redux-saga/effects';
-import { delay } from 'redux-saga';
 import request from 'axios';
 
 import APP from './constants';
